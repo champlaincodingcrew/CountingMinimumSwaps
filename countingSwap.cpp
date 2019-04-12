@@ -4,7 +4,7 @@ using namespace std;
 
 vector<string> split_string(string);
 
-// Complete the minimumSwaps function below.
+// Function Completed by Tony Calarese
 int minimumSwaps(vector<int> arr) {
     //bucketsorting
 int count = 0, i =0, value = 0;
@@ -21,7 +21,7 @@ int count = 0, i =0, value = 0;
  }while(i < arr.size());
 return count;
 }
-
+/*Code below provided by Hackerrank */
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
